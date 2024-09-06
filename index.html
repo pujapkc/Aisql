@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI SQL</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>AI SQL</h1>
+        </div>
+        <div class="team-info">
+          <span>Team SISPL</span>
+          <button class="user-icon">MS</button>
+        </div>
+      </header>
+
+      <div class="content">
+        <div class="sidebar">
+          <h2>Tables</h2>
+          <ul>
+            <li>+ Table 1</li>
+            <li>+ Table 2</li>
+            <li>+ Table 3</li>
+            <li>+ Table 4</li>
+          </ul>
+          <button class="add-table-btn">+ Add Table</button>
+        </div>
+
+        <div class="main-area">
+          <!-- Main content area -->
+        </div>
+      </div>
+
+      <!-- Draggable container on top of the content -->
+      <div id="drag_container">
+        <div class="draggable_div" id="draggableDiv1">
+          <div class="heading">
+            <h3>Table 1</h3>
+          </div>
+          <ul>
+            <li>
+              <span class="key">ID</span>
+              <span class="datatype">bigint</span>
+            </li>
+            <li>
+              <span class="key">Column</span>
+              <span class="datatype">smlint</span>
+            </li>
+            <!-- More rows here -->
+          </ul>
+        </div>
+        <!-- Table 2 -->
+        <div class="draggable_div" id="draggableDiv2">
+          <div class="heading">
+            <h3>Table 2</h3>
+          </div>
+          <ul>
+            <li>
+              <span class="key">ID</span>
+              <span class="datatype">varchar</span>
+            </li>
+            <li>
+              <span class="key">Name</span>
+              <span class="datatype">text</span>
+            </li>
+            <!-- More rows here -->
+          </ul>
+        </div>
+        <!-- Add more draggable tables as needed -->
+      </div>
+    </div>
+  </body>
+  </html>
+  
